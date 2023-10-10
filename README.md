@@ -48,4 +48,5 @@ Use the GRANT command to give the user specific privileges (e.g., SELECT, INSERT
   <img width="600" height="300" src="https://www.endpointdev.com/blog/2019/01/migrate-from-sql-server-to-postgresql/sql-server-to-postgres.jpg" alt="Your Image Alt Text">
 </p>
 
-
+# ETL: 
+The Python script does two main things. First, it grabs data from specific tables in a Microsoft SQL Server like DimProduct, DimProductSubcategory, and DimProductCategory. Second, it puts that data into matching tables in a PostgreSQL database. The script uses environment variables to keep things like passwords safe and relies on libraries like SQLAlchemy and pandas for working with the data. Think of it as a simple tool for moving data between a SQL Server and a PostgreSQL database.

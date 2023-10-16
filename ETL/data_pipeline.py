@@ -10,7 +10,7 @@ db_username = os.environ['DB_USERNAME']
 
 # SQL Server connection details
 sql_server_driver = "{ODBC Driver 17 for SQL Server}"
-sql_server_instance = "DESKTOP-KHKU8QQ\SQLEXPRESS"
+sql_server_instance = "server name \SQLEXPRESS"
 sql_server_database = "AdventureWorksDW2019"
 
 # Extract data from SQL Server
